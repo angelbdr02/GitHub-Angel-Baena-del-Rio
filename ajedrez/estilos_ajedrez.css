@@ -1,0 +1,15 @@
+td.blanco { 
+    background-color:white;
+    width: 100px;
+    height: 100px;
+ }
+ 
+ td.negro {
+ background-color:rgb(114, 44, 1);
+ width: 100px;
+ height: 100px;
+ }
+ table {
+   border-style:solid;
+   border-width:1px;
+ }   
