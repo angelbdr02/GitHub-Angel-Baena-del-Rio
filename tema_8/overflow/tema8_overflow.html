@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ángel Baena del Río">
+    <meta name="keywords" content="Overflow">
+    <meta name="description" content="Estilos overflow">
+  <link rel="stylesheet" href="estilos_overflow.css">
+  <title>Overflow</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Ángel Baena del Río · Overflow</h1>
+    </header>
+    <section>
+      <h2>Introducción</h2>
+      <p>
+        Controla el comportamiento de un contenedor cuando su contenido es más grande que el contenedor mismo y se desborda. 
+      </p>
+    </section>
+    
+    <section>
+      <h2>Valores de Overflow</h2>
+     <div class="ejemplo">
+        <div class="caja visible">
+          <p>visible</p>
+        </div>
+        <div class="info">
+          <p>
+            El valor <strong>visible</strong> es el valor por defecto.
+             El contenido que se desborda simplemente <br> se muestra fuera del contenedor, sobresaliendo visualmente.
+          </p>
+        </div>
+      </div>
+
+     <div class="example">
+        <div class="caja hidden">
+          <p>hidden</p>
+        </div>
+        <div class="info">
+          <p>
+            El valor <strong>hidden</strong> es el contenido que se desborda está oculto y no es visible. 
+            Esto puede ser útil cuando no quieres <br> que el contenido que sobresale sea visible.
+          </p>
+        </div>
+      </div>
+      
+     <div class="example">
+        <div class="caja scroll">
+          <p>scroll</p>
+        </div>
+        <div class="info">
+          <p>
+            El valor <strong>scroll</strong> hace que se agregue una barra de desplazamiento al contenedor, <br> 
+            permitiendo al usuario desplazarse para ver el contenido que está fuera de la vista.
+          </p>
+        </div>
+      </div>    
+
+     <div class="example">
+        <div class="caja auto">
+          <p>auto</p>
+        </div>
+        <div class="info">
+          <p>
+            El valor <strong>auto</strong> es similar a scroll, pero se agregarán barras de desplazamiento solo cuando sea necesario. <br>
+            Si el contenido se ajusta dentro del contenedor, no se mostrarán barras de desplazamiento.
+          </p>
+        </div>
+      </div>
+           
+    </section>
+  </div>
+</body>
+</html>
