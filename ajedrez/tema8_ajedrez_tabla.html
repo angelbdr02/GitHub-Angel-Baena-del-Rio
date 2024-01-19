@@ -12,149 +12,358 @@
     <link rel="stylesheet" href="estilos_ajedrez.css">
 </head>
 <body>
-    <div id="tablero1">
-    <table>
+    <header>
+        <nav>
+            <h1 class="nombre">Ángel Baena del Río</h1>
+            <a href="#tablerotablas">Tablas</a>
+            <a href="#tableroFluid">Fluid Layout</a>
+            <a href="#tableroFixed">Fixed Layout</a>
+            <a href="#tableroFlex">Flex Layout</a>
+        </nav>         
 
-        <tr>
-        <td class="blanco" id="A1"><img src="../ajedrez/ajedrez_imagenes/torre_blanco.png" alt=""></td>
-        <td class="negro" id="B1"><img src="../ajedrez/ajedrez_imagenes/caballo_blanco.png" alt=""></td>
-        <td class="blanco" id="C1"><img src="../ajedrez/ajedrez_imagenes/alfil_blanco.png" alt=""></td>
-        <td class="negro" id="D1"><img src="../ajedrez/ajedrez_imagenes/rey_blanco.png" alt=""></td>
-        <td class="blanco" id="E1"><img src="../ajedrez/ajedrez_imagenes/reina_blanco.png" alt=""></td>
-        <td class="negro" id="F1"><img src="../ajedrez/ajedrez_imagenes/alfil_blanco.png" alt=""></td>
-        <td class="blanco" id="G1"><img src="../ajedrez/ajedrez_imagenes/caballo_blanco.png" alt=""></td>
-        <td class="negro" id="H1"><img src="../ajedrez/ajedrez_imagenes/torre_blanco.png" alt=""></td>
-        </tr>
-        <tr>
-        <td class="negro" id="A2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
-        <td class="blanco" id="B2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
-        <td class="negro" id="C2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
-        <td class="blanco" id="D2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
-        <td class="negro" id="E2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
-        <td class="blanco" id="F2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
-        <td class="negro" id="G2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
-        <td class="blanco" id="H2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
-        </tr>
-        <tr>
-        <td class="blanco" id="A3"></td><td class="negro" id="B3"></td>
-        <td class="blanco" id="C3"></td><td class="negro" id="D3"></td>
-        <td class="blanco" id="E3"></td><td class="negro" id="F3"></td>
-        <td class="blanco" id="G3"></td><td class="negro" id="H3"></td>
-        </tr>
-        <tr>
-        <td class="negro" id="A4"></td><td class="blanco" id="B4"></td>
-        <td class="negro" id="C4"></td><td class="blanco" id="D4"></td>
-        <td class="negro" id="E4"></td><td class="blanco" id="F4"></td>
-        <td class="negro" id="G4"></td><td class="blanco" id="H4"></td>
-        </tr>
-        <tr>
-        <td class="blanco" id="A5"></td><td class="negro" id="B5"></td>
-        <td class="blanco" id="C5"></td><td class="negro" id="D5"></td>
-        <td class="blanco" id="E5"></td><td class="negro" id="F5"></td>
-        <td class="blanco" id="G5"></td><td class="negro" id="H5"></td>
-        </tr>
-        <tr>
-        <td class="negro" id="A6"></td><td class="blanco" id="B6"></td>
-        <td class="negro" id="C6"></td><td class="blanco" id="D6"></td>
-        <td class="negro" id="E6"></td><td class="blanco" id="F6"></td>
-        <td class="negro" id="G6"></td><td class="blanco" id="H6"></td>
-        </tr>
-        <tr>
-        <td class="blanco" id="A7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
-        <td class="negro" id="B7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
-        <td class="blanco" id="C7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
-        <td class="negro" id="D7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
-        <td class="blanco" id="E7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
-        <td class="negro" id="F7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
-        <td class="blanco" id="G7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
-        <td class="negro" id="H7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
-        </tr>
-        <tr>
-        <td class="negro" id="A8"><img src="../ajedrez/ajedrez_imagenes/torre_negro.png" alt=""></td>
-        <td class="blanco" id="B8"><img src="../ajedrez/ajedrez_imagenes/caballo_negro.png" alt=""></td>
-        <td class="negro" id="C8"><img src="../ajedrez/ajedrez_imagenes/alfil_negro.png" alt=""></td>
-        <td class="blanco" id="D8"><img src="../ajedrez/ajedrez_imagenes/rey_negro.png" alt=""></td>
-        <td class="negro" id="E8"><img src="../ajedrez/ajedrez_imagenes/reina_negro.png" alt=""></td>
-        <td class="blanco" id="F8"><img src="../ajedrez/ajedrez_imagenes/alfil_negro.png" alt=""></td>
-        <td class="negro" id="G8"><img src="../ajedrez/ajedrez_imagenes/caballo_negro.png" alt=""></td>
-        <td class="blanco" id="H8"><img src="../ajedrez/ajedrez_imagenes/torre_negro.png" alt=""></td>
-        </tr>
-      </table> 
-    </div>
+    </header>
+    <main>
+    <article id="articleTablas">
+        <h1 class="tabla">Tablero Tablas</h1>
+        <div id="tablerotablas">
+            <table>
 
-    <div id="tablero2">
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
+                <tr>
+                <td class="blanco" id="A1"><img src="../ajedrez/ajedrez_imagenes/torre_blanco.png" alt=""></td>
+                <td class="negro" id="B1"><img src="../ajedrez/ajedrez_imagenes/caballo_blanco.png" alt=""></td>
+                <td class="blanco" id="C1"><img src="../ajedrez/ajedrez_imagenes/alfil_blanco.png" alt=""></td>
+                <td class="negro" id="D1"><img src="../ajedrez/ajedrez_imagenes/rey_blanco.png" alt=""></td>
+                <td class="blanco" id="E1"><img src="../ajedrez/ajedrez_imagenes/reina_blanco.png" alt=""></td>
+                <td class="negro" id="F1"><img src="../ajedrez/ajedrez_imagenes/alfil_blanco.png" alt=""></td>
+                <td class="blanco" id="G1"><img src="../ajedrez/ajedrez_imagenes/caballo_blanco.png" alt=""></td>
+                <td class="negro" id="H1"><img src="../ajedrez/ajedrez_imagenes/torre_blanco.png" alt=""></td>
+                </tr>
+                <tr>
+                <td class="negro" id="A2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
+                <td class="blanco" id="B2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
+                <td class="negro" id="C2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
+                <td class="blanco" id="D2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
+                <td class="negro" id="E2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
+                <td class="blanco" id="F2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
+                <td class="negro" id="G2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
+                <td class="blanco" id="H2"><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></td>
+                </tr>
+                <tr>
+                <td class="blanco" id="A3"></td><td class="negro" id="B3"></td>
+                <td class="blanco" id="C3"></td><td class="negro" id="D3"></td>
+                <td class="blanco" id="E3"></td><td class="negro" id="F3"></td>
+                <td class="blanco" id="G3"></td><td class="negro" id="H3"></td>
+                </tr>
+                <tr>
+                <td class="negro" id="A4"></td><td class="blanco" id="B4"></td>
+                <td class="negro" id="C4"></td><td class="blanco" id="D4"></td>
+                <td class="negro" id="E4"></td><td class="blanco" id="F4"></td>
+                <td class="negro" id="G4"></td><td class="blanco" id="H4"></td>
+                </tr>
+                <tr>
+                <td class="blanco" id="A5"></td><td class="negro" id="B5"></td>
+                <td class="blanco" id="C5"></td><td class="negro" id="D5"></td>
+                <td class="blanco" id="E5"></td><td class="negro" id="F5"></td>
+                <td class="blanco" id="G5"></td><td class="negro" id="H5"></td>
+                </tr>
+                <tr>
+                <td class="negro" id="A6"></td><td class="blanco" id="B6"></td>
+                <td class="negro" id="C6"></td><td class="blanco" id="D6"></td>
+                <td class="negro" id="E6"></td><td class="blanco" id="F6"></td>
+                <td class="negro" id="G6"></td><td class="blanco" id="H6"></td>
+                </tr>
+                <tr>
+                <td class="blanco" id="A7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
+                <td class="negro" id="B7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
+                <td class="blanco" id="C7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
+                <td class="negro" id="D7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
+                <td class="blanco" id="E7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
+                <td class="negro" id="F7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
+                <td class="blanco" id="G7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
+                <td class="negro" id="H7"><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></td>
+                </tr>
+                <tr>
+                <td class="negro" id="A8"><img src="../ajedrez/ajedrez_imagenes/torre_negro.png" alt=""></td>
+                <td class="blanco" id="B8"><img src="../ajedrez/ajedrez_imagenes/caballo_negro.png" alt=""></td>
+                <td class="negro" id="C8"><img src="../ajedrez/ajedrez_imagenes/alfil_negro.png" alt=""></td>
+                <td class="blanco" id="D8"><img src="../ajedrez/ajedrez_imagenes/rey_negro.png" alt=""></td>
+                <td class="negro" id="E8"><img src="../ajedrez/ajedrez_imagenes/reina_negro.png" alt=""></td>
+                <td class="blanco" id="F8"><img src="../ajedrez/ajedrez_imagenes/alfil_negro.png" alt=""></td>
+                <td class="negro" id="G8"><img src="../ajedrez/ajedrez_imagenes/caballo_negro.png" alt=""></td>
+                <td class="blanco" id="H8"><img src="../ajedrez/ajedrez_imagenes/torre_negro.png" alt=""></td>
+                </tr>
+            </table> 
+        </div>
+    </article>
+    <br>
+    <br>
+    <br>
+    <article id="articleFluid">
+        <h1 class="flu">Tablero Fluid Layout </h1>
+        <div id="tableroFluid">
+            <div class="filaFluid">
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/torre_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/caballo_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/alfil_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/rey_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/reina_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/alfil_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/caballo_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/torre_blanco.png" alt=""></div>
+            </div>
+            <div class="filaFluid">
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+            </div>
+            <div class="filaFluid">
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+            </div>
+            <div class="filaFluid">
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+            </div>
+            <div class="filaFluid">
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+            </div>
+            <div class="filaFluid">
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+                <div class="casilla casillaFluid negra" ></div>
+                <div class="casilla casillaFluid blanca" ></div>
+            </div>
+            <div class="filaFluid">
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+            </div>
+            <div class="filaFluid">
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/torre_negro.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/caballo_negro.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/alfil_negro.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/rey_negro.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/reina_negro.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/alfil_negro.png" alt=""></div>
+                <div class="casilla casillaFluid negra" ><img src="../ajedrez/ajedrez_imagenes/caballo_negro.png" alt=""></div>
+                <div class="casilla casillaFluid blanca" ><img src="../ajedrez/ajedrez_imagenes/torre_negro.png" alt=""></div>
+            </div>
+            
+        </div>
+   </article>
+   <br>
+   <br>
+   <br>
+    <article id="articleFixed">
+        <h1 class="fix">Tablero Fixed Layout </h1>
+        <div id="tableroFixed">
+            <div class="filaFixed0">
+                <div class="casilla casillaFixed0 blanca" ><img src="../ajedrez/ajedrez_imagenes/torre_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed1 negra" ><img src="../ajedrez/ajedrez_imagenes/caballo_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed2 blanca" ><img src="../ajedrez/ajedrez_imagenes/alfil_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed3 negra" ><img src="../ajedrez/ajedrez_imagenes/rey_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed4 blanca" ><img src="../ajedrez/ajedrez_imagenes/reina_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed5 negra" ><img src="../ajedrez/ajedrez_imagenes/alfil_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed6 blanca" ><img src="../ajedrez/ajedrez_imagenes/caballo_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed7 negra" ><img src="../ajedrez/ajedrez_imagenes/torre_blanco.png" alt=""></div>
+            </div>
+            <div class="filaFixed1">
+                <div class="casilla casillaFixed0 negra" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed1 blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed2 negra" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed3 blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed4 negra" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed5 blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed6 negra" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla casillaFixed7 blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+            </div>
+            <div class="filaFixed2">
+                <div class="casilla casillaFixed0 blanca" ></div>
+                <div class="casilla casillaFixed1 negra" ></div>
+                <div class="casilla casillaFixed2 blanca" ></div>
+                <div class="casilla casillaFixed3 negra" ></div>
+                <div class="casilla casillaFixed4 blanca" ></div>
+                <div class="casilla casillaFixed5 negra" ></div>
+                <div class="casilla casillaFixed6 blanca" ></div>
+                <div class="casilla casillaFixed7 negra" ></div>
+            </div>
+            <div class="filaFixed3">
+                <div class="casilla casillaFixed0 negra" ></div>
+                <div class="casilla casillaFixed1 blanca" ></div>
+                <div class="casilla casillaFixed2 negra" ></div>
+                <div class="casilla casillaFixed3 blanca" ></div>
+                <div class="casilla casillaFixed4 negra" ></div>
+                <div class="casilla casillaFixed5 blanca" ></div>
+                <div class="casilla casillaFixed6 negra" ></div>
+                <div class="casilla casillaFixed7 blanca" ></div>
+            </div>
+            <div class="filaFixed4">
+                <div class="casilla casillaFixed0 blanca" ></div>
+                <div class="casilla casillaFixed1 negra" ></div>
+                <div class="casilla casillaFixed2 blanca" ></div>
+                <div class="casilla casillaFixed3 negra" ></div>
+                <div class="casilla casillaFixed4 blanca" ></div>
+                <div class="casilla casillaFixed5 negra" ></div>
+                <div class="casilla casillaFixed6 blanca" ></div>
+                <div class="casilla casillaFixed7 negra" ></div>
+            </div>
+            <div class="filaFixed5">
+                <div class="casilla casillaFixed0 negra" ></div>
+                <div class="casilla casillaFixed1 blanca" ></div>
+                <div class="casilla casillaFixed2 negra" ></div>
+                <div class="casilla casillaFixed3 blanca" ></div>
+                <div class="casilla casillaFixed4 negra" ></div>
+                <div class="casilla casillaFixed5 blanca" ></div>
+                <div class="casilla casillaFixed6 negra" ></div>
+                <div class="casilla casillaFixed7 blanca" ></div>
+            </div>
+            <div class="filaFixed6">
+                <div class="casilla casillaFixed0 blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFixed1 negra" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFixed2 blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFixed3 negra" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFixed4 blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFixed5 negra" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFixed6 blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla casillaFixed7 negra" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                
+            </div>
+            <div class="filaFixed7">
+                <div class="casilla casillaFixed0 negra" ><img src="../ajedrez/ajedrez_imagenes/torre_negro.png" alt=""></div>
+                <div class="casilla casillaFixed1 blanca" ><img src="../ajedrez/ajedrez_imagenes/caballo_negro.png" alt=""></div>
+                <div class="casilla casillaFixed2 negra" ><img src="../ajedrez/ajedrez_imagenes/alfil_negro.png" alt=""></div>
+                <div class="casilla casillaFixed3 blanca" ><img src="../ajedrez/ajedrez_imagenes/rey_negro.png" alt=""></div>
+                <div class="casilla casillaFixed4 negra" ><img src="../ajedrez/ajedrez_imagenes/reina_negro.png" alt=""></div>
+                <div class="casilla casillaFixed5 blanca" ><img src="../ajedrez/ajedrez_imagenes/alfil_negro.png" alt=""></div>
+                <div class="casilla casillaFixed6 negra" ><img src="../ajedrez/ajedrez_imagenes/caballo_negro.png" alt=""></div>
+                <div class="casilla casillaFixed7 blanca" ><img src="../ajedrez/ajedrez_imagenes/torre_negro.png" alt=""></div>
+            </div>
+            
+        </div>
+    </article>
+    <br>
+    <br>
+    <br>
+   <article id="articleFlex">
+        <h1 class="fle">Tablero Flex Layout</h1>
+        <div id="tableroFlex">
+            <div class="filaFlex">
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/torre_blanco.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/caballo_blanco.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/alfil_blanco.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/rey_blanco.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/reina_blanco.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/alfil_blanco.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/caballo_blanco.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/torre_blanco.png" alt=""></div>
+            </div>
+            <div class="filaFlex">
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_blanco.png" alt=""></div>
+            </div>
+            <div class="filaFlex">
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+            </div>
+            <div class="filaFlex">
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+            </div>
+            <div class="filaFlex">
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+            </div>
+            <div class="filaFlex">
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+                <div class="casilla negra" ></div>
+                <div class="casilla blanca" ></div>
+            </div>
+            <div class="filaFlex">
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/peon_negro.png" alt=""></div>
+            </div>
+            <div class="filaFlex">
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/torre_negro.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/caballo_negro.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/alfil_negro.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/rey_negro.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/reina_negro.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/alfil_negro.png" alt=""></div>
+                <div class="casilla negra" ><img src="../ajedrez/ajedrez_imagenes/caballo_negro.png" alt=""></div>
+                <div class="casilla blanca" ><img src="../ajedrez/ajedrez_imagenes/torre_negro.png" alt=""></div>
+            </div>
+            
+        </div>
+   </article>
 
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-    <div class="blanca"></div>
-    <div class="negra"></div>
-
-    </div>
+    </main>
 </body>
 </html>
