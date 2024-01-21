@@ -34,10 +34,7 @@ main{
    justify-content: center;
    align-items: center;
 }
-.pieza{
-   height: 60%;
-   width: 60%;
-}
+
 .negra{
    background-color: #000000;
 }
@@ -68,10 +65,7 @@ td.blanco {
     border-width:1px;
     border-collapse: collapse;
  }  
- .tablerosList{
-   padding-top: 30px;
-   padding-bottom: 30px;
-}
+
 
 /*Segundo Tablero Fluid*/
 .flu{
