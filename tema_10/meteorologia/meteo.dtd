@@ -1,0 +1,11 @@
+<!ELEMENT temperatura (lugar,previsiones)>
+<!ELEMENT lugar (poblacion,fecha,maxima,minima)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT maxima (#PCDATA)>
+<!ELEMENT minima (#PCDATA)>
+<!ELEMENT previsiones (prevision+)>
+<!ELEMENT prevision (hora,grados)>
+<!ATTLIST prevision estado NMTOKEN #REQUIRED>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT grados (#PCDATA)>
