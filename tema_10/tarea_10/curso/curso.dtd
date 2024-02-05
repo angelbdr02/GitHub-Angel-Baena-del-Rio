@@ -1,0 +1,10 @@
+<!ELEMENT listacursos (curso)>
+<!ELEMENT curso (profesor,alumno,contenido)>
+<!ATTLIST curso codigo NMTOKEN #REQUIRED>
+<!ELEMENT profesor (dni,nombre,ap1,ap2)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ap1 (#PCDATA)>
+<!ELEMENT ap2 (#PCDATA)>
+<!ELEMENT alumno (dni,nombre,ap1)>
+<!ELEMENT contenido (#PCDATA)>

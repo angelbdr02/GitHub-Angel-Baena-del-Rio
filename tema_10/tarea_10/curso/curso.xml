@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE listacursos SYSTEM "curso.dtd">
+<listacursos>
+    <curso codigo="LM">
+        <profesor>
+            <dni>30515455K</dni>
+            <nombre>Tomás</nombre>
+            <ap1>Martínez</ap1>
+            <ap2>Ruiz</ap2>
+        </profesor>
+        <alumno>
+            <dni>33354697A</dni>
+            <nombre>Silvia</nombre>
+            <ap1>Ruiz</ap1>
+        </alumno>
+        <contenido>Introducción a los lenguajes de marcas</contenido>
+    </curso>
+</listacursos>

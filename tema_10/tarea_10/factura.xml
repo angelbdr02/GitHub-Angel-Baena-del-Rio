@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<factura>
+    <numero>Factura Numero 27</numero>
+    <fecha>18/12/2013</fecha>
+    <datosemisor>
+        <empresa>Librería Pérez</empresa>
+        <cif></cif>
+    </datosemisor>
+</factura>
