@@ -9,11 +9,12 @@
 
 ## ¿Qué estoy aprendiendo a lo largo del curso?
 
-### En este primer curso estoy dando; 
+### En este primer curso estoy dando
+
 ```markdown
--Java 
--HTML 
--CSS 
+    -Java 
+    -HTML 
+    -CSS 
 
 
 ### Mis puntos fuertes y donde más me divierte trabajar, claramente es con HTML y CSS y sin duda mi punto débil es java el cuál me está costando mucho pero poco a poco se está sacando
