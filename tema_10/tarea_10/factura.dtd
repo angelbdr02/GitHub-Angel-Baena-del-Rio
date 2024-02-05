@@ -1,0 +1,16 @@
+<!ELEMENT factura (numero,fecha,datosemisor,datoscliente,detalles)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT datosemisor (empresa,cif,telefono)>
+<!ELEMENT empresa (#PCDATA)>
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT datoscliente (empresa,cif,telefono)>
+<!ELEMENT detalles (detallefactura+,importe)>
+<!ELEMENT detallefactura (descripcion,cant,oferta,pvp)>
+<!ATTLIST detallefactura tipo NMTOKEN #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cant (#PCDATA)>
+<!ELEMENT oferta (#PCDATA)>
+<!ELEMENT pvp (#PCDATA)>
+<!ELEMENT importe (pvp)>

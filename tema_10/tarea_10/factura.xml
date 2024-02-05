@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE factura SYSTEM "factura.dtd">
 <factura>
     <numero>Factura Numero 27</numero>
     <fecha>18/12/2013</fecha>
     <datosemisor>
         <empresa>Librería Pérez</empresa>
-        <cif></cif>
+        <cif>44555666B</cif>
+        <telefono>777888999</telefono>
     </datosemisor>
+    <datoscliente>
+        <empresa>Biblioteca Txantrea</empresa>
+        <cif>33111222A</cif>
+        <telefono>333999444</telefono>
+    </datoscliente>
+    <detalles>
+    <detallefactura tipo="Libro">
+        <descripcion>Analítica Web 2.0</descripcion>
+        <cant>1</cant>
+        <oferta>SI</oferta>
+        <pvp>25€</pvp>
+    </detallefactura>
+    <detallefactura tipo="DVD">
+        <descripcion>Curso de HTML</descripcion>
+        <cant>2</cant>
+        <oferta>NO</oferta>
+        <pvp>30€</pvp>
+    </detallefactura>
+    <importe>
+        <pvp>85€</pvp>
+    </importe>
+    </detalles>
 </factura>
