@@ -1,0 +1,17 @@
+<!-- <!ELEMENT cartas (pokemon)>
+<!ELEMENT pokemon (nombre,imagen,desc,tipo,genero,estado)>
+<!ATTLIST pokemon pokedex CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT imagen EMPTY>
+<!ATTLIST imagen foto CDATA #REQUIRED>
+<!ELEMENT desc (#PCDATA)>
+<!ELEMENT tipo EMPTY>
+<!ATTLIST tipo elemento CDATA #REQUIRED>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT estado (habilidades,nvl,Fuerza,Faseevolucion,puntosvida)>
+<!ELEMENT habilidades (#PCDATA)>
+<!ATTLIST habilidades destreza CDATA #REQUIRED>
+<!ELEMENT nvl (#PCDATA)>
+<!ELEMENT Fuerza (#PCDATA)>
+<!ELEMENT Faseevolucion (#PCDATA)>
+<!ELEMENT puntosvida (#PCDATA)>

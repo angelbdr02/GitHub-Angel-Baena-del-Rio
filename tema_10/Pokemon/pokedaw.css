@@ -1,0 +1,165 @@
+
+*{
+    margin: 0px; 
+    display:block;
+    box-sizing: border-box; 
+   }
+cartas{
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+pokemon[pokedex="0001"]{
+
+        border-radius: 8px;
+        background-image: url(imagenes/tipoplantafondo.jpg);
+        opacity: 0.8;
+        width: 20vw;
+        height: 30vw;
+        margin: 3vw;
+        margin-left: 160px;
+        padding: 1vw;
+        font-size: 1.2em;
+        overflow: hidden;
+        flex-direction: column;
+        border: 5px solid rgb(241, 192, 70);
+}
+nombre[elemento="Planta"]{
+    background-image: url(imagenes/logoplanta.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 10px;
+}
+nombre[elemento="Fuego"]{
+    background-image: url(imagenes/tipofuego.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 10px;
+}
+nombre[elemento="Tierra"]{
+    background-image: url(imagenes/tipotierra.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 10px;
+}
+nombre[elemento="Agua"]{
+    background-image: url(imagenes/tipoagua.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 10px;
+}
+desc{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+  
+}
+
+
+genero{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+habilidades{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nvl{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+Fuerza{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+Faseevolucion{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+puntosvida{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+imagen{
+    width: 78%;
+    height:40%;
+    margin:  .5em;
+}
+imagen[foto="Bulbasaur"]{
+    border: 2px solid black;
+    background-image: url("imagenes/bulbasaur.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+pokemon[pokedex="0002"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tipoplantafondo.jpg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 5px solid rgb(241, 192, 70);
+}
+imagen[foto="Ivysaur"]{
+    border: 2px solid black;
+    background-image: url("imagenes/ivysaur.webp");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="0003"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tipoplantafondo.jpg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 5px solid rgb(241, 192, 70);
+}
+imagen[foto="Venasaur"]{
+    border: 2px solid black;
+    background-image: url("imagenes/venasaur.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+

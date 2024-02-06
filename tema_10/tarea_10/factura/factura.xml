@@ -15,7 +15,7 @@
         <telefono>333999444</telefono>
     </datoscliente>
     <detalles>
-    <detallefactura tipo="Libro">
+    <detallefactura tipo="LIBRO">
         <descripcion>Analítica Web 2.0</descripcion>
         <cant>1</cant>
         <oferta>SI</oferta>

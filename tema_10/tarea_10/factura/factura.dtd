@@ -8,7 +8,7 @@
 <!ELEMENT datoscliente (empresa,cif,telefono)>
 <!ELEMENT detalles (detallefactura+,importe)>
 <!ELEMENT detallefactura (descripcion,cant,oferta,pvp)>
-<!ATTLIST detallefactura tipo NMTOKEN #REQUIRED>
+<!ATTLIST detallefactura tipo (DVD | LIBRO | VARIOS) #REQUIRED>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT cant (#PCDATA)>
 <!ELEMENT oferta (#PCDATA)>

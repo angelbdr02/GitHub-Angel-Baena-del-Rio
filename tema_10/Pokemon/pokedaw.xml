@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-stylesheet type="text/css" href="pokedaw.css"?>
+
+<cartas>
+<pokemon pokedex="0001">
+    <nombre elemento="Planta">Bulbasaur</nombre>
+    <imagen foto="Bulbasaur"></imagen>
+    <desc>
+        Bulbasaur es el Pokémon Semilla.</desc>
+    <genero>Género ------------------ Masculino</genero>
+    <estado>
+        <habilidades destreza="1">
+            Habilidad---------------- Espesura
+        </habilidades>
+        <nvl>Nivel------------------------- 4</nvl>
+        <Fuerza>Fuerza----------------------- 48</Fuerza>
+        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
+        <puntosvida>PS---------------------------- 45</puntosvida>
+    </estado>
+</pokemon>
+<pokemon pokedex="0002">
+    <nombre elemento="Planta">Ivysaur</nombre>
+    <imagen foto="Ivysaur"></imagen>
+    <desc>
+        Bulbasaur es el Pokémon Semilla.</desc>
+    <genero>Género ------------------ Masculino</genero>
+    <estado>
+        <habilidades destreza="1">
+            Habilidad---------------- Espesura
+        </habilidades>
+        <nvl>Nivel------------------------- 4</nvl>
+        <Fuerza>Fuerza----------------------- 48</Fuerza>
+        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
+        <puntosvida>PS---------------------------- 45</puntosvida>
+    </estado>
+</pokemon>
+<pokemon pokedex="0003">
+    <nombre elemento="Planta">Venasaur</nombre>
+    <imagen foto="Venasaur"></imagen>
+    <desc>
+        Bulbasaur es el Pokémon Semilla.</desc>
+    <genero>Género ------------------ Masculino</genero>
+    <estado>
+        <habilidades destreza="1">
+            Habilidad---------------- Espesura
+        </habilidades>
+        <nvl>Nivel------------------------- 4</nvl>
+        <Fuerza>Fuerza----------------------- 48</Fuerza>
+        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
+        <puntosvida>PS---------------------------- 45</puntosvida>
+    </estado>
+</pokemon>
+
+</cartas>
