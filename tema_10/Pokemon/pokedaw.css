@@ -15,8 +15,8 @@ pokemon[pokedex="001"]{
         border-radius: 8px;
         background-image: url(imagenes/tipoplantafondo.jpg);
         opacity: 0.8;
-        width: 20vw;
-        height: 30vw;
+        width: 375px;
+        height: 575px;
         margin: 3vw;
         margin-left: 160px;
         padding: 1vw;
@@ -24,6 +24,7 @@ pokemon[pokedex="001"]{
         overflow: hidden;
         flex-direction: column;
         border: 8px solid rgb(241, 192, 70);
+        justify-content: center;
 }
 nombre[elemento="Planta"]{
     background-image: url(imagenes/logoplanta.webp);
@@ -123,8 +124,8 @@ pokemon[pokedex="002"]{
     border-radius: 8px;
     background-image: url(imagenes/tipoplantafondo.jpg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -145,8 +146,8 @@ pokemon[pokedex="003"]{
     border-radius: 8px;
     background-image: url(imagenes/tipoplantafondo.jpg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -167,8 +168,8 @@ pokemon[pokedex="004"]{
     border-radius: 8px;
     background-image: url(imagenes/fondofuego.avif);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -189,8 +190,8 @@ pokemon[pokedex="005"]{
     border-radius: 8px;
     background-image: url(imagenes/fondofuego.avif);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -211,8 +212,8 @@ pokemon[pokedex="006"]{
     border-radius: 8px;
     background-image: url(imagenes/fondofuego.avif);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -233,8 +234,8 @@ pokemon[pokedex="007"]{
     border-radius: 8px;
     background-image: url(imagenes/fondoagua.jpeg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -255,8 +256,8 @@ pokemon[pokedex="008"]{
     border-radius: 8px;
     background-image: url(imagenes/fondoagua.jpeg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -277,8 +278,8 @@ pokemon[pokedex="009"]{
     border-radius: 8px;
     background-image: url(imagenes/fondoagua.jpeg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -299,8 +300,8 @@ pokemon[pokedex="027"]{
     border-radius: 8px;
     background-image: url(imagenes/tierrafondo.avif);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -321,8 +322,8 @@ pokemon[pokedex="028"]{
     border-radius: 8px;
     background-image: url(imagenes/tierrafondo.avif);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -343,8 +344,8 @@ pokemon[pokedex="232"]{
     border-radius: 8px;
     background-image: url(imagenes/tierrafondo.avif);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -365,8 +366,8 @@ pokemon[pokedex="152"]{
     border-radius: 8px;
     background-image: url(imagenes/tipoplantafondo.jpg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -387,8 +388,8 @@ pokemon[pokedex="153"]{
     border-radius: 8px;
     background-image: url(imagenes/tipoplantafondo.jpg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -409,8 +410,8 @@ pokemon[pokedex="154"]{
     border-radius: 8px;
     background-image: url(imagenes/tipoplantafondo.jpg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -431,8 +432,8 @@ pokemon[pokedex="155"]{
     border-radius: 8px;
     background-image: url(imagenes/fondofuego.avif);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -453,8 +454,8 @@ pokemon[pokedex="156"]{
     border-radius: 8px;
     background-image: url(imagenes/fondofuego.avif);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -475,8 +476,8 @@ pokemon[pokedex="157"]{
     border-radius: 8px;
     background-image: url(imagenes/fondofuego.avif);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -497,8 +498,8 @@ pokemon[pokedex="158"]{
     border-radius: 8px;
     background-image: url(imagenes/fondoagua.jpeg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -519,8 +520,8 @@ pokemon[pokedex="159"]{
     border-radius: 8px;
     background-image: url(imagenes/fondoagua.jpeg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -541,8 +542,8 @@ pokemon[pokedex="160"]{
     border-radius: 8px;
     background-image: url(imagenes/fondoagua.jpeg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -563,8 +564,8 @@ pokemon[pokedex="449"]{
     border-radius: 8px;
     background-image: url(imagenes/tierrafondo.avif);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -585,8 +586,8 @@ pokemon[pokedex="450"]{
     border-radius: 8px;
     background-image: url(imagenes/tierrafondo.avif);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -607,8 +608,8 @@ pokemon[pokedex="051"]{
     border-radius: 8px;
     background-image: url(imagenes/tierrafondo.avif);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -629,8 +630,8 @@ pokemon[pokedex="069"]{
     border-radius: 8px;
     background-image: url(imagenes/tipoplantafondo.jpg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -651,8 +652,8 @@ pokemon[pokedex="070"]{
     border-radius: 8px;
     background-image: url(imagenes/tipoplantafondo.jpg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
@@ -673,8 +674,8 @@ pokemon[pokedex="071"]{
     border-radius: 8px;
     background-image: url(imagenes/tipoplantafondo.jpg);
     opacity: 0.8;
-    width: 20vw;
-    height: 30vw;
+    width: 375px;
+    height: 575px;
     margin: 3vw;
     margin-left: 160px;
     padding: 1vw;
