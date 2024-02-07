@@ -22,43 +22,43 @@
     <nombre elemento="Planta">Ivysaur</nombre>
     <imagen foto="Ivysaur"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Ivysaur es el Pokémon Semilla.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Clorofila
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 7</nvl>
+        <Fuerza>Fuerza----------------------- 68</Fuerza>
+        <Faseevolucion>Fase-------------------------- 2</Faseevolucion>
+        <puntosvida>PS---------------------------- 65</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="003">
     <nombre elemento="Planta">Venasaur</nombre>
     <imagen foto="Venasaur"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Venasaur es el Pokémon Semilla.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad----------------- Clorofila
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel-------------------------- 9</nvl>
+        <Fuerza>Fuerza------------------------ 81</Fuerza>
+        <Faseevolucion>Fase--------------------------- 3</Faseevolucion>
+        <puntosvida>PS----------------------------- 89</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="004">
     <nombre elemento="Fuego">Charmander</nombre>
     <imagen foto="Charmander"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Charmander es el Pokémon Lagartija.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Mar Llamas
         </habilidades>
         <nvl>Nivel------------------------- 4</nvl>
         <Fuerza>Fuerza----------------------- 48</Fuerza>
@@ -70,43 +70,43 @@
     <nombre elemento="Fuego">Charmeleon</nombre>
     <imagen foto="Charmeleon"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Charmeleon es el Pokémon Lagartija.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Mar Llamas
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 7</nvl>
+        <Fuerza>Fuerza----------------------- 68</Fuerza>
+        <Faseevolucion>Fase-------------------------- 2</Faseevolucion>
+        <puntosvida>PS---------------------------- 65</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="006">
     <nombre elemento="Fuego">Charizard</nombre>
     <imagen foto="Charizard"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Charizard es el Pokémon Lagartija.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Poder Solar
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 9</nvl>
+        <Fuerza>Fuerza----------------------- 88</Fuerza>
+        <Faseevolucion>Fase-------------------------- 3</Faseevolucion>
+        <puntosvida>PS---------------------------- 85</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="007">
     <nombre elemento="Agua">Squirtle</nombre>
     <imagen foto="Squirtle"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Squirtle es el Pokémon Tortuguita</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Torrente
         </habilidades>
         <nvl>Nivel------------------------- 4</nvl>
         <Fuerza>Fuerza----------------------- 48</Fuerza>
@@ -118,43 +118,43 @@
     <nombre elemento="Agua">Wartortle</nombre>
     <imagen foto="Wartortle"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Wartortle es el Pokémon Tortuga.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Torrente
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 7</nvl>
+        <Fuerza>Fuerza----------------------- 68</Fuerza>
+        <Faseevolucion>Fase-------------------------- 2</Faseevolucion>
+        <puntosvida>PS---------------------------- 65</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="009">
     <nombre elemento="Agua">Blastoise</nombre>
     <imagen foto="Blastoise"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Blastoise es el Pokémon Marisco.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Cura Lluvia
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 9</nvl>
+        <Fuerza>Fuerza----------------------- 88</Fuerza>
+        <Faseevolucion>Fase-------------------------- 3</Faseevolucion>
+        <puntosvida>PS---------------------------- 85</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="027">
     <nombre elemento="Tierra">Sandshrew</nombre>
     <imagen foto="Sandshrew"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
-    <genero>Género ------------------ Masculino</genero>
+        Sandshrew es el Pokémon Ratón.</desc>
+    <genero>Género ------------------ Femenino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Velo Arena
         </habilidades>
         <nvl>Nivel------------------------- 4</nvl>
         <Fuerza>Fuerza----------------------- 48</Fuerza>
@@ -166,39 +166,39 @@
     <nombre elemento="Tierra">Sandslash</nombre>
     <imagen foto="Sandslash"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
-    <genero>Género ------------------ Masculino</genero>
+        Sandslash es el Pokémon Ratón.</desc>
+    <genero>Género ------------------ Femenino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad-------------- Ímpetu Arena
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 8</nvl>
+        <Fuerza>Fuerza----------------------- 78</Fuerza>
+        <Faseevolucion>Fase-------------------------- 2</Faseevolucion>
+        <puntosvida>PS---------------------------- 75</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="232">
     <nombre elemento="Tierra">Donphan</nombre>
     <imagen foto="Donphan"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Donphan es el Pokémon Coraza.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Robustez
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
+        <nvl>Nivel------------------------- 7</nvl>
         <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <Faseevolucion>Fase-------------------------- 2</Faseevolucion>
+        <puntosvida>PS---------------------------- 85</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="152">
     <nombre elemento="Planta">Chikorita</nombre>
     <imagen foto="Chikorita"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Chikorita es el Pokémon Hoja.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
@@ -214,43 +214,43 @@
     <nombre elemento="Planta">Bayleef</nombre>
     <imagen foto="Bayleef"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Bayleef es el Pokémon Hoja.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
             Habilidad---------------- Espesura
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 7</nvl>
+        <Fuerza>Fuerza----------------------- 68</Fuerza>
+        <Faseevolucion>Fase-------------------------- 2</Faseevolucion>
+        <puntosvida>PS---------------------------- 65</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="154">
     <nombre elemento="Planta">Meganium</nombre>
     <imagen foto="Meganium"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Meganium es el Pokémon Hierba.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad------------- Defensa Hoja
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 9</nvl>
+        <Fuerza>Fuerza----------------------- 78</Fuerza>
+        <Faseevolucion>Fase-------------------------- 3</Faseevolucion>
+        <puntosvida>PS---------------------------- 85</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="155">
     <nombre elemento="Fuego">Cyndaquil</nombre>
     <imagen foto="Cyndaquil"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Cyndaquil es el Pokémon Ratónfuego.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Mar Llamas
         </habilidades>
         <nvl>Nivel------------------------- 4</nvl>
         <Fuerza>Fuerza----------------------- 48</Fuerza>
@@ -262,43 +262,43 @@
     <nombre elemento="Fuego">Quilava</nombre>
     <imagen foto="Quilava"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Quilava es el Pokémon Volcán.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Mar Llamas
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 7</nvl>
+        <Fuerza>Fuerza----------------------- 68</Fuerza>
+        <Faseevolucion>Fase-------------------------- 2</Faseevolucion>
+        <puntosvida>PS---------------------------- 65</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="157">
     <nombre elemento="Fuego">Typhlosion</nombre>
     <imagen foto="Typhlosion"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Typhlosion es el Pokémon Volcán.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad------------ Absorbe Fuego
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 9</nvl>
+        <Fuerza>Fuerza----------------------- 91</Fuerza>
+        <Faseevolucion>Fase-------------------------- 3</Faseevolucion>
+        <puntosvida>PS---------------------------- 83</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="158">
     <nombre elemento="Agua">Totodile</nombre>
     <imagen foto="Totodile"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
-    <genero>Género ------------------ Masculino</genero>
+        Totodile es el Pokémon Fauces.</desc>
+    <genero>Género ------------------ Femenino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Torrente
         </habilidades>
         <nvl>Nivel------------------------- 4</nvl>
         <Fuerza>Fuerza----------------------- 48</Fuerza>
@@ -310,43 +310,43 @@
     <nombre elemento="Agua">Croconaw</nombre>
     <imagen foto="Croconaw"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Croconaw es el Pokémon Fauces.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Torrente
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 7</nvl>
+        <Fuerza>Fuerza----------------------- 53</Fuerza>
+        <Faseevolucion>Fase-------------------------- 2</Faseevolucion>
+        <puntosvida>PS---------------------------- 79</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="160">
     <nombre elemento="Agua">Feraligatr</nombre>
     <imagen foto="Feraligatr"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Feraligatr es el Pokémon Fauces.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad------------ Potencia Bruta
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 8</nvl>
+        <Fuerza>Fuerza----------------------- 86</Fuerza>
+        <Faseevolucion>Fase-------------------------- 2</Faseevolucion>
+        <puntosvida>PS---------------------------- 92</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="449">
     <nombre elemento="Tierra">Hippopotas</nombre>
     <imagen foto="Hippopotas"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Hippopotas es el Pokémon Hipo.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad-------------- Chorro Arena
         </habilidades>
         <nvl>Nivel------------------------- 4</nvl>
         <Fuerza>Fuerza----------------------- 48</Fuerza>
@@ -358,43 +358,43 @@
     <nombre elemento="Tierra">Hippowdon</nombre>
     <imagen foto="Hippowdon"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Hippowdon es el Pokémon Peso Pesado.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad-------------- Poder Arena
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 8</nvl>
+        <Fuerza>Fuerza----------------------- 78</Fuerza>
+        <Faseevolucion>Fase-------------------------- 2</Faseevolucion>
+        <puntosvida>PS---------------------------- 95</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="051">
     <nombre elemento="Tierra">Dugtrio</nombre>
     <imagen foto="Dugtrio"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
-    <genero>Género ------------------ Masculino</genero>
+        Dugtrio es el Pokémon Topo.</desc>
+    <genero>Género ------------------ Femenino</genero>
     <estado>
         <habilidades destreza="1">
             Habilidad---------------- Espesura
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 7</nvl>
+        <Fuerza>Fuerza----------------------- 53</Fuerza>
+        <Faseevolucion>Fase-------------------------- 2</Faseevolucion>
+        <puntosvida>PS---------------------------- 65</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="069">
     <nombre elemento="Planta">Bellsprout</nombre>
     <imagen foto="Bellsprout"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
+        Bellsprout es el Pokémon Flor.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Clorofila
         </habilidades>
         <nvl>Nivel------------------------- 4</nvl>
         <Fuerza>Fuerza----------------------- 48</Fuerza>
@@ -406,32 +406,32 @@
     <nombre elemento="Planta">Weepinbell</nombre>
     <imagen foto="Weepinbell"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
-    <genero>Género ------------------ Masculino</genero>
+        Weepinbell es el Pokémon Matamoscas.</desc>
+    <genero>Género ------------------ Femenino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Clorofila
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 7</nvl>
+        <Fuerza>Fuerza----------------------- 64</Fuerza>
+        <Faseevolucion>Fase-------------------------- 2</Faseevolucion>
+        <puntosvida>PS---------------------------- 61</puntosvida>
     </estado>
 </pokemon>
 <pokemon pokedex="071">
     <nombre elemento="Planta">Victreebel</nombre>
     <imagen foto="Victreebel"></imagen>
     <desc>
-        Bulbasaur es el Pokémon Semilla.</desc>
-    <genero>Género ------------------ Masculino</genero>
+        Victreebel es el Pokémon Matamoscas.</desc>
+    <genero>Género ------------------ Femenino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Espesura
+            Habilidad---------------- Gula
         </habilidades>
-        <nvl>Nivel------------------------- 4</nvl>
-        <Fuerza>Fuerza----------------------- 48</Fuerza>
-        <Faseevolucion>Fase-------------------------- 1</Faseevolucion>
-        <puntosvida>PS---------------------------- 45</puntosvida>
+        <nvl>Nivel------------------------- 8</nvl>
+        <Fuerza>Fuerza----------------------- 81</Fuerza>
+        <Faseevolucion>Fase-------------------------- 3</Faseevolucion>
+        <puntosvida>PS---------------------------- 81</puntosvida>
     </estado>
 </pokemon>
 
