@@ -5,12 +5,12 @@
     box-sizing: border-box; 
    }
 cartas{
-    background-color: #ffffff; 
+    background:linear-gradient(black, rgb(63, 1, 63));
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-pokemon[pokedex="0001"]{
+pokemon[pokedex="001"]{
 
         border-radius: 8px;
         background-image: url(imagenes/tipoplantafondo.jpg);
@@ -23,7 +23,7 @@ pokemon[pokedex="0001"]{
         font-size: 1.2em;
         overflow: hidden;
         flex-direction: column;
-        border: 5px solid rgb(241, 192, 70);
+        border: 8px solid rgb(241, 192, 70);
 }
 nombre[elemento="Planta"]{
     background-image: url(imagenes/logoplanta.webp);
@@ -118,7 +118,7 @@ imagen[foto="Bulbasaur"]{
     margin: auto;
 }
 
-pokemon[pokedex="0002"]{
+pokemon[pokedex="002"]{
 
     border-radius: 8px;
     background-image: url(imagenes/tipoplantafondo.jpg);
@@ -131,7 +131,7 @@ pokemon[pokedex="0002"]{
     font-size: 1.2em;
     overflow: hidden;
     flex-direction: column;
-    border: 5px solid rgb(241, 192, 70);
+    border: 8px solid rgb(241, 192, 70);
 }
 imagen[foto="Ivysaur"]{
     border: 2px solid black;
@@ -140,7 +140,7 @@ imagen[foto="Ivysaur"]{
     background-position: center;
     margin: auto;
 }
-pokemon[pokedex="0003"]{
+pokemon[pokedex="003"]{
 
     border-radius: 8px;
     background-image: url(imagenes/tipoplantafondo.jpg);
@@ -153,11 +153,539 @@ pokemon[pokedex="0003"]{
     font-size: 1.2em;
     overflow: hidden;
     flex-direction: column;
-    border: 5px solid rgb(241, 192, 70);
+    border: 8px solid rgb(241, 192, 70);
 }
 imagen[foto="Venasaur"]{
     border: 2px solid black;
     background-image: url("imagenes/venasaur.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="004"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/fondofuego.avif);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Charmander"]{
+    border: 2px solid black;
+    background-image: url("imagenes/charmander.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="005"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/fondofuego.avif);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Charmeleon"]{
+    border: 2px solid black;
+    background-image: url("imagenes/charmeleon.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="006"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/fondofuego.avif);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Charizard"]{
+    border: 2px solid black;
+    background-image: url("imagenes/charizard.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="007"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/fondoagua.jpeg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Squirtle"]{
+    border: 2px solid black;
+    background-image: url("imagenes/squirtle.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="008"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/fondoagua.jpeg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Wartortle"]{
+    border: 2px solid black;
+    background-image: url("imagenes/wartortle.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="009"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/fondoagua.jpeg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Blastoise"]{
+    border: 2px solid black;
+    background-image: url("imagenes/blastoise.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="027"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tierrafondo.avif);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Sandshrew"]{
+    border: 2px solid black;
+    background-image: url("imagenes/sandshrew.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="028"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tierrafondo.avif);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Sandslash"]{
+    border: 2px solid black;
+    background-image: url("imagenes/sandslash.webp");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="232"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tierrafondo.avif);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Donphan"]{
+    border: 2px solid black;
+    background-image: url("imagenes/donphan.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="152"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tipoplantafondo.jpg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Chikorita"]{
+    border: 2px solid black;
+    background-image: url("imagenes/chikorita.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="153"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tipoplantafondo.jpg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Bayleef"]{
+    border: 2px solid black;
+    background-image: url("imagenes/bayleef.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="154"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tipoplantafondo.jpg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Meganium"]{
+    border: 2px solid black;
+    background-image: url("imagenes/meganium.webp");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="155"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/fondofuego.avif);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Cyndaquil"]{
+    border: 2px solid black;
+    background-image: url("imagenes/cyndaquil.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="156"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/fondofuego.avif);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Quilava"]{
+    border: 2px solid black;
+    background-image: url("imagenes/quilava.webp");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="157"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/fondofuego.avif);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Typhlosion"]{
+    border: 2px solid black;
+    background-image: url("imagenes/typhlosion.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="158"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/fondoagua.jpeg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Totodile"]{
+    border: 2px solid black;
+    background-image: url("imagenes/totodile.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="159"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/fondoagua.jpeg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Croconaw"]{
+    border: 2px solid black;
+    background-image: url("imagenes/croconaw.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="160"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/fondoagua.jpeg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Feraligatr"]{
+    border: 2px solid black;
+    background-image: url("imagenes/feraligatr.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="449"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tierrafondo.avif);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Hippopotas"]{
+    border: 2px solid black;
+    background-image: url("imagenes/hippopotas.webp");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="450"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tierrafondo.avif);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Hippowdon"]{
+    border: 2px solid black;
+    background-image: url("imagenes/hippowdon.avif");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="051"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tierrafondo.avif);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Dugtrio"]{
+    border: 2px solid black;
+    background-image: url("imagenes/dugtrio.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="069"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tipoplantafondo.jpg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Bellsprout"]{
+    border: 2px solid black;
+    background-image: url("imagenes/bellsprout.webp");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="070"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tipoplantafondo.jpg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Weepinbell"]{
+    border: 2px solid black;
+    background-image: url("imagenes/weepinbell.webp");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+pokemon[pokedex="071"]{
+
+    border-radius: 8px;
+    background-image: url(imagenes/tipoplantafondo.jpg);
+    opacity: 0.8;
+    width: 20vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left: 160px;
+    padding: 1vw;
+    font-size: 1.2em;
+    overflow: hidden;
+    flex-direction: column;
+    border: 8px solid rgb(241, 192, 70);
+}
+imagen[foto="Victreebel"]{
+    border: 2px solid black;
+    background-image: url("imagenes/victreebel.jpg");
     background-size: cover;
     background-position: center;
     margin: auto;
