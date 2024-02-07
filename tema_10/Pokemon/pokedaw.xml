@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <?xml-stylesheet type="text/css" href="pokedaw.css"?>
 
+
+<!DOCTYPE cartas SYSTEM "pokedaw.dtd">
 <cartas>
 <pokemon pokedex="001">
     <nombre elemento="Planta">Bulbasaur</nombre>
@@ -58,7 +60,7 @@
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Mar Llamas
+            Habilidad-------------- Mar Llamas
         </habilidades>
         <nvl>Nivel------------------------- 4</nvl>
         <Fuerza>Fuerza----------------------- 48</Fuerza>
@@ -74,7 +76,7 @@
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Mar Llamas
+            Habilidad--------------- Mar Llamas
         </habilidades>
         <nvl>Nivel------------------------- 7</nvl>
         <Fuerza>Fuerza----------------------- 68</Fuerza>
@@ -90,7 +92,7 @@
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Poder Solar
+            Habilidad-------------- Poder Solar
         </habilidades>
         <nvl>Nivel------------------------- 9</nvl>
         <Fuerza>Fuerza----------------------- 88</Fuerza>
@@ -138,7 +140,7 @@
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Cura Lluvia
+            Habilidad-------------- Cura Lluvia
         </habilidades>
         <nvl>Nivel------------------------- 9</nvl>
         <Fuerza>Fuerza----------------------- 88</Fuerza>
@@ -154,7 +156,7 @@
     <genero>Género ------------------ Femenino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Velo Arena
+            Habilidad-------------- Velo Arena
         </habilidades>
         <nvl>Nivel------------------------- 4</nvl>
         <Fuerza>Fuerza----------------------- 48</Fuerza>
@@ -170,7 +172,7 @@
     <genero>Género ------------------ Femenino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad-------------- Ímpetu Arena
+            Habilidad------------ Ímpetu Arena
         </habilidades>
         <nvl>Nivel------------------------- 8</nvl>
         <Fuerza>Fuerza----------------------- 78</Fuerza>
@@ -245,12 +247,11 @@
 <pokemon pokedex="155">
     <nombre elemento="Fuego">Cyndaquil</nombre>
     <imagen foto="Cyndaquil"></imagen>
-    <desc>
-        Cyndaquil es el Pokémon Ratónfuego.</desc>
+    <desc>Cyndaquil es Pokémon Ratónfuego.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Mar Llamas
+            Habilidad-------------- Mar Llamas
         </habilidades>
         <nvl>Nivel------------------------- 4</nvl>
         <Fuerza>Fuerza----------------------- 48</Fuerza>
@@ -266,7 +267,7 @@
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Mar Llamas
+            Habilidad-------------- Mar Llamas
         </habilidades>
         <nvl>Nivel------------------------- 7</nvl>
         <Fuerza>Fuerza----------------------- 68</Fuerza>
@@ -282,7 +283,7 @@
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad------------ Absorbe Fuego
+            Habilidad----------- Absorbe Fuego
         </habilidades>
         <nvl>Nivel------------------------- 9</nvl>
         <Fuerza>Fuerza----------------------- 91</Fuerza>
@@ -346,7 +347,7 @@
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad-------------- Chorro Arena
+            Habilidad------------ Chorro Arena
         </habilidades>
         <nvl>Nivel------------------------- 4</nvl>
         <Fuerza>Fuerza----------------------- 48</Fuerza>
@@ -358,7 +359,7 @@
     <nombre elemento="Tierra">Hippowdon</nombre>
     <imagen foto="Hippowdon"></imagen>
     <desc>
-        Hippowdon es el Pokémon Peso Pesado.</desc>
+        Hippowdon: Pokémon Peso Pesado.</desc>
     <genero>Género ------------------ Masculino</genero>
     <estado>
         <habilidades destreza="1">
@@ -406,7 +407,7 @@
     <nombre elemento="Planta">Weepinbell</nombre>
     <imagen foto="Weepinbell"></imagen>
     <desc>
-        Weepinbell es el Pokémon Matamoscas.</desc>
+        Weepinbell: Pokémon Matamoscas.</desc>
     <genero>Género ------------------ Femenino</genero>
     <estado>
         <habilidades destreza="1">
@@ -422,16 +423,16 @@
     <nombre elemento="Planta">Victreebel</nombre>
     <imagen foto="Victreebel"></imagen>
     <desc>
-        Victreebel es el Pokémon Matamoscas.</desc>
+        Victreebel: Pokémon Matamoscas.</desc>
     <genero>Género ------------------ Femenino</genero>
     <estado>
         <habilidades destreza="1">
-            Habilidad---------------- Gula
+            Habilidad------------------- Gula
         </habilidades>
-        <nvl>Nivel------------------------- 8</nvl>
-        <Fuerza>Fuerza----------------------- 81</Fuerza>
-        <Faseevolucion>Fase-------------------------- 3</Faseevolucion>
-        <puntosvida>PS---------------------------- 81</puntosvida>
+        <nvl>Nivel-------------------------- 8</nvl>
+        <Fuerza>Fuerza------------------------ 81</Fuerza>
+        <Faseevolucion>Fase--------------------------- 3</Faseevolucion>
+        <puntosvida>PS------------------------------ 81</puntosvida>
     </estado>
 </pokemon>
 
