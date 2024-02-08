@@ -2,8 +2,9 @@
  <?xml-stylesheet type="text/css" href="pokedaw.css"?>
 
 
-<!DOCTYPE cartas SYSTEM "pokedaw.dtd">
-<cartas>
+
+<cartas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="pokedaw.xsd">
 <pokemon pokedex="001">
     <nombre elemento="Planta">Bulbasaur</nombre>
     <imagen foto="Bulbasaur"></imagen>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE factura SYSTEM "factura.dtd">
-<factura>
+
+<factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="factura.xsd">
     <numero>Factura Numero 27</numero>
     <fecha>18/12/2013</fecha>
     <datosemisor>

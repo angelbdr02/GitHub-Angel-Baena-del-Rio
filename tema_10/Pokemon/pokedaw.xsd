@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cartas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pokemon" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="elemento" use="required">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:enumeration value="Agua" />
+                                                        <xs:enumeration value="Fuego" />
+                                                        <xs:enumeration value="Planta" />
+                                                        <xs:enumeration value="Tierra" />
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="imagen">
+                                <xs:complexType>
+                                    <xs:attribute name="foto" type="xs:ID" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="desc" type="xs:string" />
+                            <xs:element name="genero" type="xs:string" />
+                            <xs:element name="estado">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="habilidades">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="destreza"
+                                                            type="xs:integer" use="required"
+                                                            fixed="1" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="nvl" type="xs:string" />
+                                        <xs:element name="Fuerza" type="xs:string" />
+                                        <xs:element name="Faseevolucion" type="xs:string" />
+                                        <xs:element name="puntosvida" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="pokedex" type="xs:integer" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

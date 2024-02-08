@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="factura">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="numero" type="xs:string" />
+                <xs:element name="fecha" type="xs:string" />
+                <xs:element name="datosemisor">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="empresa" type="xs:string" />
+                            <xs:element name="cif" type="xs:string" />
+                            <xs:element name="telefono" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="datoscliente">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="empresa" type="xs:string" />
+                            <xs:element name="cif" type="xs:string" />
+                            <xs:element name="telefono" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="detalles">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="detallefactura" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="descripcion" type="xs:string" />
+                                        <xs:element name="cant" type="xs:string" />
+                                        <xs:element name="oferta" type="xs:string" />
+                                        <xs:element name="pvp" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="tipo" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="importe">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="pvp" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
