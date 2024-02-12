@@ -1,7 +1,7 @@
 nav {
    background-color: #333;
    overflow: hidden;
-   
+   text-align: center;
 }
 
 nav a {
@@ -200,4 +200,45 @@ td.blanco {
 .filaFlex{
    display: flex;
    flex-direction: row;
+}
+
+
+/*Cuarto Tablero Grid*/
+.gri{
+   margin-left: 520px;
+}
+#tableroGrid{
+   position: relative; 
+   top: 0px;
+   left: 0; 
+   right: 0; 
+   margin-left: auto; 
+   margin-right: auto; 
+   width: 800px;
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+
+/*Tablero Responsive*/
+.res{
+   margin-left: 520px;
+}
+#tableroResponsive{
+   position: relative; 
+   top: 0px;
+   left: 0; 
+   right: 0; 
+   margin-left: auto; 
+   margin-right: auto; 
+   width: 80vmin;
+   height: 80vmin;
+   display: grid; /* Partimos del tablero grid y asignamos dimensiones responsive */
+   grid-template-columns: 12.5%  12.5%  12.5%  12.5%  12.5%  12.5%  12.5%  12.5% ;
+   grid-template-rows: 12.5%  12.5%  12.5%  12.5%  12.5%  12.5%  12.5%  12.5% ;
+
+}
+.casillaResponsive{
+   height: 100%;
+   width: 100%;
 }
