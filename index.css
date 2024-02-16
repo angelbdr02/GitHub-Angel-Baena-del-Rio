@@ -1,9 +1,116 @@
- header{
+header{
     background-color: #000000;
     border-radius: 5px;
  }
- h2{
+h2{
     color: white;
     text-align: center;
     padding-top: 25px;
  }
+
+.container{
+   display: grid;
+   grid-template-columns: 20% 20% 20% 20% 18% ;
+   gap: 10px;
+}
+
+.Ajedrez{
+ width: 30vmin;
+ height: 40vmin;
+ border: 1px solid #333;
+ align-items: center;
+ justify-content: center;
+ font-size: 16px;
+ border-radius: 5px;
+}
+
+.Overflow{
+   width: 30vmin;
+   height: 40vmin;
+   border: 1px solid #333;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
+.ModelodeCaja{
+   width: 30vmin;
+   height: 40vmin;
+   border: 1px solid #333;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
+.Posicionamiento{
+   width: 30vmin;
+   height: 40vmin;
+   border: 1px solid #333;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
+.Banderas{
+   width: 30vmin;
+   height: 40vmin;
+   border: 1px solid #333;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
+.BanderaJapon{
+   width: 30vmin;
+   height: 40vmin;
+   border: 1px solid #333;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
+.Practica1{
+   width: 30vmin;
+   height: 40vmin;
+   border: 1px solid #333;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
+.Libros{
+   width: 30vmin;
+   height: 40vmin;
+   border: 1px solid #333;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
+.Pokemon{
+   width: 30vmin;
+   height: 40vmin;
+   border: 1px solid #333;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
+.XML{
+   width: 30vmin;
+   height: 40vmin;
+   border: 1px solid #333;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
