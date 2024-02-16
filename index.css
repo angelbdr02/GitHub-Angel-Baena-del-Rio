@@ -10,23 +10,30 @@ h2{
 
 .container{
    display: grid;
-   grid-template-columns: 20% 20% 20% 20% 18% ;
-   gap: 10px;
+   grid-template-columns: 25% 25% 25% 25% ;
+   row-gap: 60px;
+   margin-left: 15vmin;
 }
 
 .Ajedrez{
  width: 30vmin;
- height: 40vmin;
+ height: 20vmin;
  border: 1px solid #333;
  align-items: center;
  justify-content: center;
  font-size: 16px;
  border-radius: 5px;
+ border-style: dashed;
+ position: absolute;
+}
+.portadaajedrez{
+   width: 100%;
+   height: 100%;
 }
 
 .Overflow{
    width: 30vmin;
-   height: 40vmin;
+   height: 20vmin;
    border: 1px solid #333;
    align-items: center;
    justify-content: center;
@@ -36,7 +43,7 @@ h2{
 
 .ModelodeCaja{
    width: 30vmin;
-   height: 40vmin;
+   height: 20vmin;
    border: 1px solid #333;
    align-items: center;
    justify-content: center;
@@ -46,7 +53,7 @@ h2{
 
 .Posicionamiento{
    width: 30vmin;
-   height: 40vmin;
+   height: 20vmin;
    border: 1px solid #333;
    align-items: center;
    justify-content: center;
@@ -56,7 +63,7 @@ h2{
 
 .Banderas{
    width: 30vmin;
-   height: 40vmin;
+   height: 20vmin;
    border: 1px solid #333;
    align-items: center;
    justify-content: center;
@@ -66,7 +73,7 @@ h2{
 
 .BanderaJapon{
    width: 30vmin;
-   height: 40vmin;
+   height: 20vmin;
    border: 1px solid #333;
    align-items: center;
    justify-content: center;
@@ -76,7 +83,7 @@ h2{
 
 .Practica1{
    width: 30vmin;
-   height: 40vmin;
+   height: 20vmin;
    border: 1px solid #333;
    align-items: center;
    justify-content: center;
@@ -86,7 +93,7 @@ h2{
 
 .Libros{
    width: 30vmin;
-   height: 40vmin;
+   height: 20vmin;
    border: 1px solid #333;
    align-items: center;
    justify-content: center;
@@ -96,7 +103,7 @@ h2{
 
 .Pokemon{
    width: 30vmin;
-   height: 40vmin;
+   height: 20vmin;
    border: 1px solid #333;
    align-items: center;
    justify-content: center;
@@ -106,7 +113,7 @@ h2{
 
 .XML{
    width: 30vmin;
-   height: 40vmin;
+   height: 20vmin;
    border: 1px solid #333;
    align-items: center;
    justify-content: center;
