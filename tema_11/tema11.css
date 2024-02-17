@@ -3,10 +3,6 @@ header{
     border-radius: 5px;
  }
 
- main{
-   border: solid black;
-   border-radius: 5px;
- }
 
  h2{
     color: white;
@@ -15,10 +11,11 @@ header{
  }
 
 .container{
+    margin-top: 30vmin;
    display: grid;
-   grid-template-columns: 25% 25% 25% 25% ;
+   grid-template-columns: 33% 33%;
    row-gap: 60px;
-   margin-left: 15vmin;
+   margin-left: 65vmin;
 }
 
 .caja{
@@ -38,5 +35,3 @@ header{
 .textos{
 text-align: center;
 }
-
-
