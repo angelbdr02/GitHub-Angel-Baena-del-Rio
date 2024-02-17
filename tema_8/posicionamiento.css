@@ -3,6 +3,7 @@ header{
     border-radius: 5px;
  }
 
+
  h2{
     color: white;
     text-align: center;
@@ -10,8 +11,9 @@ header{
  }
 
 .container{
+    margin-top: 30vmin;
    display: grid;
-   grid-template-columns: 25% 25% 25% 25% ;
+   grid-template-columns: 20% 20% 20% 20% 19% ;
    row-gap: 60px;
    margin-left: 15vmin;
 }
