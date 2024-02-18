@@ -13,6 +13,9 @@ header{
     text-align: center;
     padding-top: 25px;
  }
+ main{
+   background: linear-gradient(white, rgb(162, 158, 158));
+ }
 
 .container{
    display: grid;
@@ -29,6 +32,11 @@ header{
  justify-content: center;
  font-size: 16px;
  border-radius: 5px;
+ box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.5); 
+ 
+}
+.caja:hover{
+   transform: scale(1.1);
 }
 .fotos{
    width: 100%;
