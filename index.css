@@ -6,7 +6,7 @@ header{
  main{
    box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.5); 
    border-radius: 5px;
-   background: linear-gradient(rgb(211, 241, 211), rgb(84, 107, 84));
+   background: linear-gradient(rgb(211, 241, 211), rgb(173, 241, 173));
  }
 
  h2{
@@ -20,6 +20,14 @@ header{
    grid-template-columns: 25% 25% 25% 25% ;
    row-gap: 60px;
    margin-left: 15vmin;
+}
+
+.modelo{
+   background-color: #aeb8eb;
+}
+
+.overflow{
+   background-color: #000000;
 }
 
 .caja{
