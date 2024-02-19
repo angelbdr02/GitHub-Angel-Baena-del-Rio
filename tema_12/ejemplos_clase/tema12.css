@@ -25,11 +25,16 @@ header{
  align-items: center;
  justify-content: center;
  font-size: 16px;
- border-radius: 5px;
+ border-radius: 15px;
+ box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.5); 
+}
+.caja:hover{
+   transform: scale(1.1);
 }
 .fotos{
    width: 100%;
    height: 100%;
+   border-radius: 15px;
 }
 
 .textos{
