@@ -3,12 +3,6 @@ header{
     border-radius: 5px;
  }
 
- main{
-   box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.5); 
-   border-radius: 5px;
-   background: linear-gradient(rgb(211, 241, 211), rgb(173, 241, 173));
- }
-
  h2{
     color: white;
     text-align: center;
@@ -16,18 +10,11 @@ header{
  }
 
 .container{
+    margin-top: 30vmin;
    display: grid;
-   grid-template-columns: 25% 25% 25% 25% ;
+   grid-template-columns: 25% 25% 25% 25%;
    row-gap: 60px;
    margin-left: 15vmin;
-}
-
-.modelo{
-   background-color: #aeb8eb;
-}
-
-.overflow{
-   background-color: #000000;
 }
 
 .caja{
@@ -39,7 +26,6 @@ header{
  font-size: 16px;
  border-radius: 15px;
  box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.5); 
- 
 }
 .caja:hover{
    transform: scale(1.1);
@@ -52,7 +38,5 @@ header{
 
 .textos{
 text-align: center;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
-
-
