@@ -2,30 +2,45 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Tabla multiplicar</title>
+    <title>Tabla de multiplicar</title>
     <style>
-      div {
-        display: inline-block;
-        width: 10%;
+      .contenedor-tablas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        gap: 20px; 
+      }
+      .tabla {
+        flex: 0 0 calc(33.33% - 40px); 
+        box-sizing: border-box;
+        padding: 10px;
+        margin-bottom: 20px; 
+      }
+      .resultado {
+        margin: 5px 0;
       }
     </style>
   </head>
   <body>
-    <p id="tabla-multiplicar">Tabla de multiplicar</p>
-    <label>Número: <input type="number" id="numero" /></label><br />
-    <button onclick="calcular()">Calcular</button><br />
-    <div id="resultado"></div>
+    <p>¿Cuántas tablas de multiplicar quieres generar?</p>
+    <label>Número de tablas: <input type="number" id="numTablas" /></label><br />
+    <button onclick="calcular()">Generar Tablas</button><br />
+    <div id="resultado" class="contenedor-tablas"></div>
+
     <script>
       function calcular() {
-        const numero = Number(document.getElementById("numero").value);
+        const numTablas = Number(document.getElementById("numTablas").value);
         const resultado = document.getElementById("resultado");
-        resultado.innerHTML = "";
+        resultado.innerHTML = ''; 
 
-        for (let i = 0; i <= 9; i++) {
-          const texto = document.createTextNode(numero + " X " + i + " = " + numero * i);
-          const saltoDeLinea = document.createElement("br");
-          resultado.appendChild(texto);
-          resultado.appendChild(saltoDeLinea);
+        for (let n = 1; n <= numTablas; n++) {
+          let tablaHTML = "<div class='tabla'>";
+          tablaHTML += "<p>Tabla del " + n + "</p>";
+          for (let i = 0; i <= 10; i++) {
+            tablaHTML += "<div class='resultado'>" + n + " X " + i + " = " + (n * i) + "</div>";
+          }
+          tablaHTML += "</div>";
+          resultado.innerHTML += tablaHTML;
         }
       }
     </script>
