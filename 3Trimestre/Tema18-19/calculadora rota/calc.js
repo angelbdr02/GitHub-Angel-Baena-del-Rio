@@ -5,7 +5,7 @@ function agregarNumero(num) {
 }
 
 function limpiar() {
-    resultado.value = resultado.value.limpiar(0);
+  resultado.value = "";
 }
 
 function borrar() {
@@ -28,6 +28,20 @@ function operar(op) {
         resultado.value = "Error";
       }
       break;
+    case "1/":
+      try {
+        resultado.value = 1 / eval(resultado.value);
+      } catch (error) {
+        resultado.value = "Error";
+      }
+      break;
+    case "**":
+      try {
+        resultado.value = eval(resultado.value) ** 2;
+      } catch (error) {
+        resultado.value = "Error";
+      }
+      break;
     default:
       resultado.value += op;
       break;
@@ -37,6 +51,18 @@ function operar(op) {
 function calcular() {
   try {
     resultado.value = eval(resultado.value);
+  } catch (error) {
+    resultado.value = "Error";
+  }
+}
+
+function hex() {
+  try {
+    let decimal = parseFloat(resultado.value);
+    if (isNaN(decimal)) {
+      throw "Error";
+    }
+    resultado.value = decimal.toString(16).toUpperCase();
   } catch (error) {
     resultado.value = "Error";
   }
