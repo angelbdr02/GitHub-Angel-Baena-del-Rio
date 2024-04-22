@@ -1,39 +1,46 @@
 .calculadora {
-  width: 400px;
-  margin: 50px auto;
-  border: 5px solid #ccc; /* Más borde alrededor de la calculadora */
-  border-radius: 15px;
-  background-color: #fff; /* Fondo blanco */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 300px;
+  height: 370px;
+  border: 1px solid #000;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px #000;
 }
 
 .pantalla {
-  background-color: #f0f0f0; /* Color de fondo de la pantalla */
+  height: 80px;
   padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  background-color: #ccc;
+}
+
+#resultado {
+  width: 97%;
+  height: 70px;
+  font-size: 50px;
+  border: none;
+  background-color: #9ddba7;
+  border: 2px black solid;
 }
 
 .teclado {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px; /* Separación entre botones */
-}
-
-button {
-  border: 1px solid #ccc; /* Borde alrededor de los botones */
-  padding: 15px;
-  font-size: 18px;
-  background-color: #e0e0e0;
-  cursor: pointer;
-  border-radius: 5px; /* Bordes redondeados */
-}
-
-button:hover {
+  grid-gap: 5px;
+  padding: 10px;
   background-color: #ccc;
 }
 
+button {
+  font-size: 30px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px black;
+}
 
+button:hover {
+  background-color: #ddd;
+}
 button.dos-casillas {
   grid-column: span 2;
 }
