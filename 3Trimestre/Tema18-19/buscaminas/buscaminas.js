@@ -259,4 +259,32 @@ const buscaminas = {
     if (isOK) {
       alert("¡¡¡Enhorabuena!!!");
     }
+
   }
+
+  document.getElementById("facil").addEventListener("click", function() {
+    // Juego en nivel fácil
+    reiniciarJuego(8, 8, 10); 
+});
+
+document.getElementById("intermedio").addEventListener("click", function() {
+    // Juego en nivel intermedio
+    reiniciarJuego(12, 12, 20);
+});
+
+document.getElementById("dificil").addEventListener("click", function() {
+    // Juego en nivel difícil
+    reiniciarJuego(16, 16, 30); 
+});
+
+function reiniciarJuego(filas, columnas, minas) {
+    buscaminas.numFilas = filas;
+    buscaminas.numColumnas = columnas;
+    buscaminas.minasTotales = minas;
+    buscaminas.numMinasEncontradas = 0; 
+    dibujarTablero();
+    generarCampoMinasVacio();
+    esparcirMinas();
+    contarMinas();
+    actualizarNumMinasRestantes();
+}
