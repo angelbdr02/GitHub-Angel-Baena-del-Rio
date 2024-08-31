@@ -17,6 +17,6 @@
     -CSS 
 
 
-### Mis puntos fuertes y donde más me divierte trabajar, claramente es con HTML y CSS y sin duda mi punto débil es java el cuál me está costando mucho pero poco a poco se está sacando
+### Mis puntos fuertes y donde más me divierte trabajar, claramente es con HTML y CSS, Java poco a poco lo voy controlando mas y mas pero en lo que más invierto mi tiempo es en Base de Datos, mi objetivo es especializarme en AWS
 
 

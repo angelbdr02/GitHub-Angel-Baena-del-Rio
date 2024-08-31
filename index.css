@@ -19,7 +19,7 @@ header{
    display: grid;
    grid-template-columns: 25% 25% 25% 25% ;
    row-gap: 60px;
-   margin-left: 15vmin;
+    margin-left: 15vmin;
 }
 
 .modelo{
