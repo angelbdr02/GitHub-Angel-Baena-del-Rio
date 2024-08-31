@@ -23,6 +23,7 @@
 
   .jugador2 {
     background-image: url(./jugador2.png);
+    
 
   }
 
@@ -45,9 +46,50 @@ h2{
     margin-left: 47%;  
 }
 
+#contador-puntos{
+  margin-left: 900px;
+  font-size: 40px;
+}
+
 #turno{
     margin-left: 45%;
 }
 .ganador{
     background-color: yellow;
+}
+
+/* Estilo para el modal */
+.modal {
+  display: none; /* Por defecto oculto */
+  position: fixed; /* Posición fija */
+  z-index: 1; /* Encima de todo */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4); /* Fondo oscuro semi-transparente */
+}
+
+/* Contenido del modal */
+.modal-contenido {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* Botón para cerrar el modal */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
